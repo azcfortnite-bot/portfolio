@@ -1,12 +1,98 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <title>Mon Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ababacar Dia – Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <h1>Bienvenue sur mon Portfolio</h1>
-    <p>Je suis étudiant en R&T et futur pilote ✈️</p>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="#">free<span>•inspired</span></a>
+      <nav class="nav">
+        <a href="#apropos">À propos</a>
+        <a href="#experience">Expérience</a>
+        <a href="#projets">Projets</a>
+        <a class="btn" href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Ababacar Dia</h1>
+      <p class="subtitle">Étudiant 3<sup>e</sup> année BUT Réseaux & Télécom •
+        Alternant chez <strong>Free Réseau</strong> – Conducteur de travaux télécom</p>
+      <div class="badges">
+        <span class="badge">R&T</span>
+        <span class="badge">FTTH / Terrain & Bureau</span>
+        <span class="badge">Gestion de chantier</span>
+      </div>
+    </div>
+  </section>
+
+  <main class="container">
+    <section id="apropos" class="card">
+      <h2>À propos</h2>
+      <p>
+        Passionné par les infrastructures télécom, je conçois et pilote des opérations
+        FTTH / cuivre en coordination avec les équipes terrain et les partenaires.
+        Mon objectif : livrer des chantiers fiables, sécurisés et documentés, avec un
+        reporting clair et des délais tenus.
+      </p>
+    </section>
+
+    <section id="experience" class="grid">
+      <article class="card">
+        <h3>Conducteur de travaux télécom — Free Réseau</h3>
+        <ul class="list">
+          <li>Coordination d’équipes technicien·ne·s & sous-traitants</li>
+          <li>Planification interventions, suivi tickets & KPI hebdo</li>
+          <li>Contrôles sécurité, PV de recette, DOE & reporting</li>
+        </ul>
+      </article>
+      <article class="card">
+        <h3>Compétences clés</h3>
+        <ul class="list">
+          <li>Réseaux : VLAN, routage, adressage, supervision</li>
+          <li>FTTH : tirage, raccordement, mesures, conformité</li>
+          <li>Gestion : priorisation, communication, qualité</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="projets" class="card">
+      <h2>Projets</h2>
+      <div class="tiles">
+        <article class="tile">
+          <h4>Mini-site Portfolio</h4>
+          <p>TP Versioning : branches, tags, rebase & PR sur GitHub.</p>
+        </article>
+        <article class="tile">
+          <h4>Doc chantier & KPI</h4>
+          <p>Modèle de reporting hebdo (tickets, réussites/échecs, actions).</p>
+        </article>
+        <article class="tile">
+          <h4>Labs R&T</h4>
+          <p>Topologies VLAN/OSPF/NAT avec captures & schémas.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <p>
+        Mail : <a href="mailto:etudiant@ababacar.domaine.fr">etudiant@ababacar.domaine.fr</a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© 2025 — Portfolio inspiré par l’identité Free (non officiel).</small>
+    </div>
+  </footer>
 </body>
 </html>
+
